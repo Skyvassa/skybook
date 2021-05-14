@@ -15,8 +15,19 @@ const createUser = (req,res) => {
     res.redirect('/users');
 }
 
+const show = (req,res) => {
+    // filter, find, for
+
+    for (i=0; i < users.length; i++) {
+        if (parseInt(users[i].uuid) === parseInt(req.params.id)) { // 12345 == "12345"
+            res.render('users/profile.ejs', { user: users[i] });
+        }
+    }
+}
+
 module.exports = {
     index,
     signup,
     createUser,
+    show,
 }

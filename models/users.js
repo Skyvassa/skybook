@@ -5,7 +5,7 @@ const users = [
         password: "password123",
         aboutMe: "Lorem ipsum dolor sit amet amet olor sit.",
         img: "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Chris_Hemsworth_as_Thor.jpg/220px-Chris_Hemsworth_as_Thor.jpg",
-        uuid: 12345
+        uuid: "12345"
     }
 ]
 
